@@ -1,10 +1,10 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  mode: "development",
   entry: "./src/index.jsx",
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "dist"),
     filename: "main.js",
   },
   target: "web",
@@ -15,6 +15,7 @@ module.exports = {
     hot: true,
     liveReload: true,
   },
+  plugins: [new HtmlWebpackPlugin({ template: "./public/index.html" })],
   resolve: {
     extensions: [".js", ".jsx", ".json", ".ts"],
   },
