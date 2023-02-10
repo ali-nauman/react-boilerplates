@@ -3,7 +3,7 @@ const config = require('./webpack.config');
 
 module.exports = merge(config, {
   mode: 'development',
-  entry: './src/index.jsx',
+  entry: './src/index.tsx',
   devServer: {
     port: '3000',
     static: ['./public'],

@@ -6,6 +6,7 @@ export const App = () => {
   const increment = () => {
     setCounter(counter + 1);
   };
+
   return (
     <div>
       This was made from Scratch! Also hello world!
