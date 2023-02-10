@@ -9,6 +9,7 @@ specifiers:
   '@babel/runtime': ^7.20.13
   babel-loader: ^9.1.2
   html-webpack-plugin: ^5.5.0
+  prettier: ^2.8.4
   react: ^18.2.0
   react-dom: ^18.2.0
   webpack: ^5.75.0
@@ -29,6 +30,7 @@ devDependencies:
   '@babel/runtime': 7.20.13
   babel-loader: 9.1.2_la66t7xldg4uecmyawueag5wkm
   html-webpack-plugin: 5.5.0_webpack@5.75.0
+  prettier: 2.8.4
   webpack: 5.75.0_webpack-cli@5.0.1
   webpack-cli: 5.0.1_uaydpeuxkjjcxdbyfgk36cjdxi
   webpack-dev-server: 4.11.1_rjsyjcrmk25kqsjzwkvj3a2evq
@@ -3075,6 +3077,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+    dev: true
+
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /pretty-error/4.0.0:
