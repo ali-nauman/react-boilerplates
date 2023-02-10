@@ -1,11 +1,11 @@
-const path = require("path");
-const { merge } = require("webpack-merge");
-const config = require("./webpack.config");
+const path = require('path');
+const { merge } = require('webpack-merge');
+const config = require('./webpack.config');
 
 module.exports = merge(config, {
-  mode: "production",
+  mode: 'production',
   output: {
-    path: path.join(__dirname, "/dist"),
-    filename: "bundle.js",
+    path: path.join(__dirname, '/dist'),
+    filename: 'bundle.js',
   },
 });
