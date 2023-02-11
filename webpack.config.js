@@ -1,10 +1,14 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
+const ProgressBarPlugin = require('progress-bar-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   plugins: [
     new HtmlWebpackPlugin({ template: './public/index.html' }),
     new ESLintPlugin({ extensions: ['js', 'jsx'], files: ['src'] }),
+    new ProgressBarPlugin(),
+    new CleanWebpackPlugin(),
   ],
   module: {
     rules: [
