@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  ignorePatterns: ['**/*.config.js', 'webpack.*.js', '.eslintrc.js', 'dist/'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
