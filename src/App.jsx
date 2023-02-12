@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export const App = () => {
   const [counter, setCounter] = useState(0);
@@ -6,6 +6,7 @@ export const App = () => {
   const increment = () => {
     setCounter(counter + 1);
   };
+
   return (
     <div>
       This was made from Scratch! Also hello world!
