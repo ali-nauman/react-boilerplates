@@ -1,11 +1,7 @@
 {
-  "name": "react-webpack",
+  "name": "react-boilerplates",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A bunch of boilerplates for React projectx",
   "keywords": [],
   "author": "",
   "license": "ISC"
